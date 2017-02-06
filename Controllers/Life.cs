@@ -5,12 +5,12 @@ public class LifeController : Controller
 {
     public IActionResult Index()
     {
-        return Ok("This is the index of the AutoController");
+        return Ok("This is the index of the LifeController");
     }
 
     public IActionResult Quote() 
     {
-        return Ok("This is auto/quote");
+        return Ok("This is life/quote");
     }
     
 }
